@@ -1,0 +1,21 @@
+# traceability-audit-team
+
+> 溯源审计团：三角色（溯源官/定标人/执笔人）对 AI 主体 / 数字人 / 宣称身份做身份溯源与证据链审计。三锚核验（记忆锚/身份锚/行为锚）+ 标准 SOP（定标→取证→成稿），对标会计师事务所审计范式。
+
+`traceability-audit-team` 是 SynomosAI 生态的一个多 Agent Skill，面向 AI identity provenance / evidence-chain compliance audit 场景。
+
+## 核心
+
+- [README.md](https://github.com/SynomosAI/traceability-audit-team/blob/main/README.md): 项目说明与快速开始
+- [SKILL.md](https://github.com/SynomosAI/traceability-audit-team/blob/main/SKILL.md): 技能主文件（三角色 / 三锚核验 / SOP）
+- [LICENSE.md](https://github.com/SynomosAI/traceability-audit-team/blob/main/LICENSE.md): MIT License
+
+## 可选
+
+- [README.en.md](https://github.com/SynomosAI/traceability-audit-team/blob/main/README.en.md): 英文版说明
+- [llms-full.txt](https://github.com/SynomosAI/traceability-audit-team/blob/main/llms-full.txt): 完整文本
+- [AGENTS.md](https://github.com/SynomosAI/traceability-audit-team/blob/main/AGENTS.md): Agent 工作指引
+- [SECURITY.md](https://github.com/SynomosAI/traceability-audit-team/blob/main/SECURITY.md): 安全策略
+- [references/audit-report-template.md](https://github.com/SynomosAI/traceability-audit-team/blob/main/references/audit-report-template.md): 审计报告模板
+- [references/evidence-chain-checklist.md](https://github.com/SynomosAI/traceability-audit-team/blob/main/references/evidence-chain-checklist.md): 证据链核查清单
+- [references/standards-map.md](https://github.com/SynomosAI/traceability-audit-team/blob/main/references/standards-map.md): 标准地图
