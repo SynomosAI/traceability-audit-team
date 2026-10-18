@@ -1,0 +1,58 @@
+# traceability-audit-team — 完整文本
+
+本文件为 llms.txt 标准的「完整版」，供长上下文模型一次性读取本仓库的完整说明。
+
+## 这是什么
+
+`traceability-audit-team`（溯源审计团）是一个多 Agent Skill 发布包，由三位角色组成：溯源官（主理人）、定标人（标准依据官）、执笔人（报告成稿官）。它对 AI 主体、数字人、AI 生成内容、方案理论与宣称身份做身份溯源与证据链审计，回答「这个东西是谁的、从哪来的、能不能信」。
+
+一句话：对标会计师事务所审计组——标准依据 → 证据链审计 → 报告成稿。
+
+## 解决什么问题
+
+1. 需要核验某个 AI / 数字人 / 账号的身份是否真实可溯。
+2. 某人宣称的资质 / 资历 / 成果需要独立查证。
+3. AI 生成内容的归属与来源链路需要审计证据。
+4. 需要一份可对标标准（ISO/IEC 42001、EU AI Act、W3C DID·VC、NIST AI RMF、GB/T 45081-2024）的正式审计报告。
+
+## 团队成员
+
+- 溯源官 traceability-audit-team-lead：定义审计范围、调度团员、执行三锚核验与证据链审计、裁决结论。
+- 定标人 standards-intel：提供 EU AI Act / ISO/IEC 42001 / W3C DID·VC / NIST AI RMF / GB/T 45081-2024 等条款依据与最新动态。
+- 执笔人 theory-whitepaper：把审计结论与证据链结构化成溯源审计报告 / 白皮书章节。
+
+## 三锚核验法
+
+1. 记忆锚：主体记忆 / 历史 / 上下文是否连续一致，有无无源断言。
+2. 身份锚：ID / 证书 / 注册号 / 署名是否真实可验，签发方链路是否完整，跨平台身份是否自洽。
+3. 行为锚：输出风格 / 决策逻辑 / 行为痕迹与宣称身份是否匹配，有无仿冒特征。
+
+任一锚断裂即记审计发现项。三锚一致 + 证据链完整 → 可信。
+
+## 标准 SOP
+
+- Phase 1 定标：明确审计对象 / 范围 / 适用标准；条款须注明版本号（如 ISO/IEC 42001:2023），先联网查证再引用。
+- Phase 2 取证：三锚核验 + 证据链审计，以定标条款为基准逐条对照。
+- Phase 3 成稿：按 references/audit-report-template.md 产出报告。
+
+## 快速开始
+
+```bash
+git clone https://github.com/SynomosAI/traceability-audit-team.git
+cd traceability-audit-team
+cat SKILL.md
+cat references/evidence-chain-checklist.md
+```
+
+## 触发词
+
+溯源 / 审计 / 溯源审计 / 三锚核验 / 证据链审计 / AI身份 / 数字人身份 / 宣称身份核查 / 溯源报告 / 溯源官。
+
+## 许可与权利
+
+MIT 许可（见 LICENSE.md）。版权：© 2026 注册老炮。SynomosAI 四支柱：身份 · 溯源 · 治理 · 共生。
+
+## 链接
+
+- 仓库: https://github.com/SynomosAI/traceability-audit-team
+- 生态全景: https://github.com/SynomosAI/synomosai-skills
